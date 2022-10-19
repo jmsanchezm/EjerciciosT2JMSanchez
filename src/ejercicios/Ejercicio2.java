@@ -12,7 +12,7 @@ public class Ejercicio2 {
 		Scanner read= new Scanner (System.in);
 		System.out.print("Introduzca su DNI para calcular la letra: ");
 		dni = read.nextInt();
-		if (dni>=1 || dni<=99999999) {
+		if (dni>=1 && dni<=99999999) {
 		letra = dni%23;
 		switch (letra) {
 		case 0:

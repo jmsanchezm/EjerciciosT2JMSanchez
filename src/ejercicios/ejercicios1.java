@@ -32,7 +32,7 @@ public class ejercicios1 {
 		
 		}else if (num>=100 && num <1000) {/*En el caso de que no se cumpla lo anterior, por las 
 			cifras del número, ponemos la condición en un intervalo de 100 a 1000(no incluye 1000).*/
-				cociente = num/100; // Dividimos num entre 10, que nos dará cociente.
+				cociente = num/100; // Dividimos num entre 100, que nos dará cociente.
 				resto= num%10;//Calculamos el módulo del número introducido para que nos dé el resto
 				if ((int)cociente == resto) {/*Usamos otro if dentro del anterior para poner la condición 
 				de que resto y cociente sean iguales.*/
@@ -44,7 +44,7 @@ public class ejercicios1 {
 				
 		}else if (num>=1000 && num<10000) {/*En el caso de que no se cumpla lo anterior, por las 
 			cifras del número, ponemos la condición en un intervalo de 1000 a 10000(no incluye 10000).*/
-			cociente = num/1000;// Dividimos num entre 10, que nos dará cociente.
+			cociente = num/1000;// Dividimos num entre 1000, que nos dará cociente.
 			resto= num%10;//Calculamos el módulo del número introducido para que nos dé el resto.
 			if ((int)cociente == resto) {/*Usamos otro if dentro del anterior para poner la condición 
 			de que resto y cociente sean iguales.*/
