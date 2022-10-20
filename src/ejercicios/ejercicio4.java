@@ -6,15 +6,23 @@ public class ejercicio4 {
 
 	public static void main(String[] args) {
 		int num;
-		int dec;
-		int unid;
-		int numEspecial;
+		String dec;
+		String unid;
+		int cifra1;
+		int cifra2;
+		int numEspecial=0;
 		Scanner read = new Scanner (System.in);
 		System.out.println("Introduzca un número: ");
 		num =read.nextInt();
-		dec=num/10;
-		unid=num%10;
-		switch (dec) {
+		if (num != numEspecial) {
+			System.out.println("El número introducido es " + dec + "y " + unid);
+		}else if (num == numEspecial){
+			System.out.println("El número introducido es " + numEspecial);
+		}
+		cifra1 == dec;
+		cifra1=num/10;
+		cifra2=num%10;
+		switch (cifra1) {
 			case 1:
 				System.out.println("Dieci");
 				break;
@@ -42,7 +50,7 @@ public class ejercicio4 {
 				System.out.println("ERROR");
 				
 		}
-		switch (unid) {
+		switch (cifra2) {
 			case 1:
 				System.out.println("uno");
 				break;
@@ -70,9 +78,31 @@ public class ejercicio4 {
 				System.out.println("ERROR");
 		}
 		switch (numEspecial) {
-		
+			case 11:
+				System.out.println("Once");
+				break;
+			case 12:
+				System.out.println("Doce");
+				break; 
+			case 13:
+				System.out.println("Trece");
+				break;
+			case 14:
+				System.out.println("Catorce");
+				break;
+			case 15:
+				System.out.println("Quince");
+				break;
+			case 20:
+				System.out.println("Veinte");
+			
+		if()
+				
+				
+				
+				
 		}
-		if ()
+	
 	}
 
 }

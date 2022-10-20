@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ejercicios1 {
 
 	public static void main(String[] args) {
+		
+		//Pruebas
 		//Declaramos variables.
 		int num;//Se guardará el número introducido por el usuario.
 		int resto;//Se guardará el resultado del módulo.
@@ -34,7 +36,8 @@ public class ejercicios1 {
 			cifras del número, ponemos la condición en un intervalo de 100 a 1000(no incluye 1000).*/
 				cociente = num/100; // Dividimos num entre 100, que nos dará cociente.
 				resto= num%10;//Calculamos el módulo del número introducido para que nos dé el resto
-				if ((int)cociente == resto) {/*Usamos otro if dentro del anterior para poner la condición 
+				if ((int)cociente == resto) {
+					/*Usamos otro if dentro del anterior para poner la condición 
 				de que resto y cociente sean iguales.*/
 					//En el caso de que se cumpla esta condición se le mostrará el siguiente mensaje.
 					System.out.println("El número es capicúa.");
