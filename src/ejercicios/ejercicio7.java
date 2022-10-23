@@ -17,13 +17,16 @@ public class ejercicio7 {
 		min= read.nextInt();
 		System.out.println("Introduzca una cantidad de segundos: ");
 		seg= read.nextInt();
-		seg ++;
+		seg++;
+		if(hora>=00 && hora<=24 && min>=00 && min>60 && seg>=0 && seg<60) {
+	
+			if (hora ==24 && min==60 && seg==60) {
+				System.out.println("00:00:00");
+			}
 
-			resto = seg>=59 ? 00 : min++;
-			resto= min>=59 ? 00 : hora++;
-		
-		System.out.println(hora + " horas, " + min + " minutos, " + seg + " segundos.");
-		
 	}
 
+		
+		
+	}
 }

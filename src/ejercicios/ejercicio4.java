@@ -6,22 +6,16 @@ public class ejercicio4 {
 
 	public static void main(String[] args) {
 		int num;
-		String dec;
-		String unid;
+		String letra = null;
 		int cifra1;
 		int cifra2;
 		int numEspecial=0;
 		Scanner read = new Scanner (System.in);
 		System.out.println("Introduzca un número: ");
 		num =read.nextInt();
-		if (num != numEspecial) {
-			System.out.println("El número introducido es " + dec + "y " + unid);
-		}else if (num == numEspecial){
-			System.out.println("El número introducido es " + numEspecial);
-		}
-		cifra1 == dec;
 		cifra1=num/10;
 		cifra2=num%10;
+		if (num == cifra1 && num == cifra2) {
 		switch (cifra1) {
 			case 1:
 				System.out.println("Dieci");
@@ -77,6 +71,7 @@ public class ejercicio4 {
 			default:
 				System.out.println("ERROR");
 		}
+		}else if (num==numEspecial) {
 		switch (numEspecial) {
 			case 11:
 				System.out.println("Once");
@@ -95,14 +90,7 @@ public class ejercicio4 {
 				break;
 			case 20:
 				System.out.println("Veinte");
-			
-		if()
-				
-				
-				
-				
+			}
 		}
-	
 	}
-
 }
