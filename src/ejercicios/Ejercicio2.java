@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class Ejercicio2 {
 
 	public static void main(String[] args) {
-		/*Para garantizar el funcionamiento del programa, se han introducido
-		DNIs reales. Como resultado, se ha mostrado sus letras correspondientes. 
-		También se han introducido valores al azar y mostraba su correspondiente letra.
-		En adición, se le ha probado con números mayores a los que se encuentran en el 
-		intervalo (1,99999999) y, como resultado, se nos ha mostrado en pantalla que los
-		datos son erróneos. Por tanto , el prgrama cumple con los requisitos del ejercicio.*/
+		/* dni = mi DNI --> La letra correspondiente es Y.
+		 * dni = 78452319 --> La letra corresponiente es D.
+		 * dni = 123546984 --> Dato erróneo.
+		 */
 		
 		//Declaramos variables.
 		int dni;//Se guardará el número de dni que introduzca el usuario.

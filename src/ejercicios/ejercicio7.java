@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class ejercicio7 {
 
 	public static void main(String[] args) {
-		int hora;
+		//Declaramos variables.
+		int hora; //Se guardará el número de horas que introduzca el usuario
 		int min;
 		int seg;
-		int resto;
-		int resto1;
 		Scanner read = new Scanner (System.in);
 		System.out.println("Introduzca una cantidad de horas: ");
 		hora = read.nextInt();
@@ -17,16 +16,22 @@ public class ejercicio7 {
 		min= read.nextInt();
 		System.out.println("Introduzca una cantidad de segundos: ");
 		seg= read.nextInt();
+		  if (seg >= 60 || seg < 0 && min >= 60 || min < 0 &&  hora >= 24 || hora < 0) {
+			  System.out.println("Dato erróneo.");
+		  }
 		seg++;
-		if(hora>=00 && hora<=24 && min>=00 && min>60 && seg>=0 && seg<60) {
-	
-			if (hora ==24 && min==60 && seg==60) {
-				System.out.println("00:00:00");
-			}
-
-	}
-
-		
-		
+		 if (seg == 60) {
+	         seg = 0;
+	         min++;
+	     }
+		 if (min == 60){
+			 min = 0;
+	         hora++;
+		 }
+		if (hora == 24){
+	            hora = 0;
+		}
+		System.out.println(hora + ":" + min + ":" + seg);
 	}
 }
+

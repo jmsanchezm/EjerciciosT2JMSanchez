@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class ejercicios1 {
 
 	public static void main(String[] args) {
-		/*Hemos introducido valores intencionalmente, sabiendo que son capicúas, para garantizar 
-		 el funcionamiento del programa.También hemos introducido valores no capicúas para ver 
-		 que se nos muestra en pantalla. Además, hemos introducido valores de los cuales no están
-		 en en intervalo (0,9999), para ver cómo actúa el programa. Como resuktado se este último
-		 se muestra que el dato es erróneo.*/
+		/* num = 2002 --> El número es capicúa.
+		 * num = 567 -->El número no es capicúa.
+		 * num = 69 --> El número no es capicúa.
+		 * num = 8 --> El número es capicúa, ya que es de una cifra.
+		 * num = 12656 --> El dato introducido es erróneo.*/
 		
 		//Declaramos variables.
 		int num;//Se guardará el número introducido por el usuario.

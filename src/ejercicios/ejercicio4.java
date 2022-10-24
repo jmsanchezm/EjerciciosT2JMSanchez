@@ -13,8 +13,7 @@ public class ejercicio4 {
 		Scanner read = new Scanner (System.in);
 		System.out.println("Introduzca un número: ");
 		num =read.nextInt();
-		cifra1=num/10;
-		cifra2=num%10;
+	
 		if (num == cifra1 && num == cifra2) {
 		switch (cifra1) {
 			case 1:
